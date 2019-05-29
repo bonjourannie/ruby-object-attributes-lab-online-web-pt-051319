@@ -4,15 +4,15 @@ class Person
   end
   
   def name
-    puts @name
+    @name
   end
   
-  def job (persons_job)
+  def job=(persons_job)
     @job = persons_job
   end
   
   def job 
-    puts @job 
+    @job 
   end
   
 end
